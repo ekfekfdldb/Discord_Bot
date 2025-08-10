@@ -34,9 +34,9 @@
 
 ### 3) 의존성 설치 및 실행
 ```bash
-    npm install
-    npm install discord.js dotenv
-    node index.js
+npm install
+npm install discord.js dotenv
+node index.js
 ```
 
 ---
@@ -46,19 +46,19 @@
 ### `/help`
 봇이 제공하는 모든 명령어 목록을 표시합니다.
 ```bash
-    /help
+/help
 ```
 
 ### `/status`
 봇과 시스템의 현재 상태를 확인합니다.
 ```bash
-    /status
+/status
 ```
 
 ### `/site`
 특정 웹사이트의 응답 상태를 확인합니다.
 ```bash
-    /site url:https://example.com
+/site url:https://example.com
 ```
 
 ### `/api_check`
@@ -72,7 +72,7 @@ API 엔드포인트에 다양한 요청을 보낼 수 있습니다.
 
 **예시:**
 ```bash
-    /api_check method:POST url:https://httpbin.org/post body:{"name":"test"} content_type:application/json
+/api_check method:POST url:https://httpbin.org/post body:{"name":"test"} content_type:application/json
 ```
 
 ---
