@@ -72,7 +72,7 @@ API 엔드포인트에 다양한 요청을 보낼 수 있습니다.
 
 **예시:**
 ```bash
-/api_check method:POST url:https://httpbin.org/post body:{"name":"test"} content_type:application/json
+/api_check method:POST url:https://httpbin.org/post body:{"name":"test"}
 ```
 
 ---
