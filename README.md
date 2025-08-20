@@ -106,7 +106,7 @@ node index.js
 │   └── request.js
 ├── index.js           # 메인 봇 실행 파일
 ├── registerCommands.js# 명령어 등록 스크립트
-├── .env.example       # 환경 변수 예시
+├── .env               # 환경 변수
 └── README.md
 ```
 
