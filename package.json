@@ -1,7 +1,6 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "type": "module",
   "description": "유틸리티 디스코드 봇 (상태 확인, 웹사이트/API 체크 등)",
   "main": "index.js",
   "scripts": {
