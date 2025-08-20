@@ -1,18 +1,36 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
+  "type": "module",
+  "description": "유틸리티 디스코드 봇 (상태 확인, 웹사이트/API 체크 등)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write"
   },
-  "keywords": [],
+  "keywords": [
+    "discord",
+    "bot",
+    "utility",
+    "api",
+    "eslint",
+    "prettier"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.21.0",
     "dotenv": "^17.2.1",
     "node-fetch": "^3.3.2"
   },
-  "description": ""
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.6.2"
+  }
 }
