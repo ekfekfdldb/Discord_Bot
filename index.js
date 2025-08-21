@@ -16,20 +16,20 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-    console.log(`✅ Logged in as ${client.user.tag}`);
-    console.log(`🌐 Connected to ${client.guilds.cache.size} server(s):`);
+    console.log(`Logged in as ${client.user.tag}`);
+    console.log(`Connected to ${client.guilds.cache.size} server(s):`);
     client.guilds.cache.forEach(guild => {
         console.log(`   • ${guild.name} (ID: ${guild.id})`);
     });
 
     const now = new Date().toLocaleString();
-    console.log(`🕒 Start Time: ${now}`);
+    console.log(`Start Time: ${now}`);
     console.log(
-        `📦 Loaded Commands: ${client.commands.map(cmd => cmd.data.name).join(', ')}`,
+        `Loaded Commands: ${client.commands.map(cmd => cmd.data.name).join(', ')}`,
     );
-    console.log(`🔧 Node.js: ${process.version}`);
-    console.log(`🖥️ Platform: ${process.platform} (${process.arch})`);
-    console.log(`📁 Project Root: ${process.cwd()}`);
+    console.log(`Node.js: ${process.version}`);
+    console.log(`Platform: ${process.platform} (${process.arch})`);
+    console.log(`Project Root: ${process.cwd()}`);
 
     client.startTime = Date.now();
 });

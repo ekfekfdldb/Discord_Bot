@@ -21,8 +21,8 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
         await rest.put(Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID), {
             body: commands,
         });
-        console.log('✅ Guild slash commands registered');
+        console.log('Guild slash commands registered');
     } catch (err) {
-        console.error('❌ Command register error:', err);
+        console.error('Command register error:', err);
     }
 })();
